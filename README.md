@@ -1,16 +1,13 @@
 
 # Balatro SMODS.Font Tutorial and Examples
 
-This repository provides a comprehensive guide and examples for using `SMODS.Font` in Balatro mods via the Steamodded framework. `SMODS.Font` enables the use of custom TrueType fonts (.ttf) for text elements like Joker names, descriptions, tooltips, or localizations, enhancing multilingual support and thematic styling.
+This repository provides a comprehensive guide and examples for using `SMODS.Font` in Balatro mods 
 
 ## Introduction
 Balatro's text system supports basic styling, but `SMODS.Font` (introduced in Steamodded v1.x) allows modders to define and apply custom fonts. Fonts can be referenced by a unique key (e.g., `{f:my_custom_font}`) or by index (e.g., `{f:5}` for Balatro's default Noto JP font) in text strings using the `{f:}` modifier. This integrates with Balatro's text parsing system, making it versatile for modding.
 
-## Installation
-1. **Install Steamodded**: Follow the installation guide at [Steamodded GitHub](https://github.com/Steamodded/smods).
-2. **Add Your Mod**: Place your mod (Lua files and font assets) in the Balatro `Mods` directory as per Steamodded's instructions.
-3. **Add Font Files**: Place TrueType font files (.ttf) in your mod's directory (e.g., `fonts/` subfolder).
-4. **Launch Balatro**: Start the game to load the mod and custom fonts.
+## set up
+. **Add Font Files**: Place TrueType font files (.ttf) in your mod's directory (e.g., `fonts/` subfolder).
 
 ## Usage
 ### Defining a Custom Font
