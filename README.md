@@ -106,26 +106,4 @@ SMODS.Joker({
 })
 ```
 
-### Example 2: Font in Localization
-Apply a custom font to a new language.
-
-```lua
-SMODS.Font({
-    key = 'jp_custom_font',
-    path = 'fonts/jpfont.ttf',
-    render_scale = 200,
-    FONTSCALE = 0.11
-})
-
-SMODS.Language({
-    key = 'jp_custom',
-    label = 'Japanese (Custom Font)',
-    font = 'jp_custom_font',
-    text = {
-        joker_name = "{f:jp_custom_font}カスタムジョーカー"
-    }
-})
-```
-
-
 
