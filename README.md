@@ -1,5 +1,5 @@
 
-# Balatro SMODS.Font Tutorial and Examples
+# SMODS.Font Tutorial and Examples
 
 This repository provides a comprehensive guide and examples for using `SMODS.Font` in Balatro mods 
 
@@ -11,7 +11,7 @@ Balatro's text system supports basic styling, but `SMODS.Font` (introduced in St
 
 ## Usage
 ### Defining a Custom Font
-Define a font in your mod's Lua file (e.g., `main.lua`) using `SMODS.Font`. The font is registered automatically upon instantiation.
+Define a font in your mod's Lua file (e.g., `main.lua`) using `SMODS.Font`. 
 
 ```lua
 SMODS.Font({
@@ -102,11 +102,7 @@ SMODS.Joker({
             "Gains {C:money}$#1#{} per round,",
             "{f:5}日本語 Bonus Text{}"  -- Uses default font index 5 (Noto JP)
         }
-    },
-    effect = function(self, args)
-        -- Example effect: Add money per round
-        G.GAME.dollars = G.GAME.dollars + 1
-    end
+    }
 })
 ```
 
