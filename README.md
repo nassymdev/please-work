@@ -77,7 +77,7 @@ Reset to the default font using `{}` or `{f:0}` (base font index).
 4. **Non-Parsed Text**: Hook into rendering functions using `SMODS.inject` for unsupported text areas.
 
 ## Examples
-### Example 1: Custom Joker with Font
+### Custom Joker with Font
 Create a Joker with a custom font for its name and description.
 
 ```lua
