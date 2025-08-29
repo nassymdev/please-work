@@ -127,42 +127,5 @@ SMODS.Language({
 })
 ```
 
-### Example 3: Inspired by Tangents Mod
-The Tangents mod (by Clickseee) credits Aikoyori for SMODS.Font usage. Here's an adapted example for styled text:
-
-```lua
--- Define the font
-SMODS.Font({
-    key = 'fun_font',
-    path = 'assets/funfont.ttf',
-    render_scale = 180,
-    FONTSCALE = 0.11,
-    TEXT_OFFSET = {x = 1, y = 0}
-})
-
--- Example Joker
-SMODS.Joker({
-    key = 'tangent_joker',
-    loc_txt = {
-        name = "{f:fun_font}Tangent Shenanigans{}",
-        text = {
-            "Random {f:5}日本語 text{} for fun!",
-            "Boosts score by {C:mult}+#1#{}"
-        }
-    },
-    effect = function(self, args)
-        -- Example effect: Add mult bonus
-        args.mult = args.mult + 5
-        return args
-    end
-})
-```
-
-## Tips
-- **Font Files**: Place .ttf files in your mod's directory (e.g., `fonts/` or `assets/`).
-- **Debugging**: Check the game console for errors (e.g., invalid path or non-TTF files).
-- **Alignment**: Adjust `TEXT_OFFSET`, `FONTSCALE`, and `render_scale` for visual alignment.
-- **Resources**: Explore Steamodded's [example_mods](https://github.com/Steamodded/smods/tree/main/example_mods), wiki, or PR #684 for updates.
-- **Community**: Join the Balatro Discord (`discord.gg/balatro`, #modding-chat) for support.
 
 
