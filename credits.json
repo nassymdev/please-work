@@ -1,0 +1,14 @@
+{
+  "id": "Rhapsody",
+  "name": "Rhapsody",
+  "display_name": "Rhapsody",
+  "author": ["@sxeif_"],
+  "description": "",
+  "prefix": "rhap",
+  "main_file": "Rhapsody.lua",
+  "priority": 0,
+  "badge_colour": "FFFFFF",
+  "badge_text_colour": "000000",
+  "version": "0.1.0",
+  "dependencies": []
+}
