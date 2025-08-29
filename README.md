@@ -162,18 +162,7 @@ SMODS.Joker({
 - **Font Files**: Place .ttf files in your mod's directory (e.g., `fonts/` or `assets/`).
 - **Debugging**: Check the game console for errors (e.g., invalid path or non-TTF files).
 - **Alignment**: Adjust `TEXT_OFFSET`, `FONTSCALE`, and `render_scale` for visual alignment.
-- **Mobile**: `DESCSCALE` is scaled by 1.5x on mobile devices.
 - **Resources**: Explore Steamodded's [example_mods](https://github.com/Steamodded/smods/tree/main/example_mods), wiki, or PR #684 for updates.
 - **Community**: Join the Balatro Discord (`discord.gg/balatro`, #modding-chat) for support.
 
-## Contributing
-Pull requests are welcome! Add examples, fix issues, or improve documentation.
 
-## License
-Licensed under the GNU General Public License, consistent with Steamodded.
-
-## Credits
-- Inspired by Aikoyori's SMODS.Font contributions (Steamodded PR #684).
-- Example usage adapted from mods like [Tangents](https://github.com/Clickseee/Tangents).
-
-© 2025 YourRepoName
