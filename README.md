@@ -1,5 +1,5 @@
 
-# SMODS.Font Tutorial and Examples
+# API Documentation:SMODS.Font 
 
 This repository provides a comprehensive guide and examples for using `SMODS.Font` in Balatro mods 
 
